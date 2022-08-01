@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+/* youtube */
+
+.youtube-image {
+  transition: all 0.4s linear;
+}
+
+.youtube-image:hover {
+  transform: scale(0.9);
+  border: thick double #32a1ce;
+}
+
+.youtube-item {
+  background-color: #fbda61;
+  background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+  color: #6f5789;
+}
+
+.youtube-avatar {
+  height: 50px;
+  width: 50px;
+}
+
+.children {
+  display: block;
+  width: 500px;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 10px;
+}
+
+.abc {
+  background-color: #3eecac;
+  background-image: linear-gradient(19deg, #3eecac 0%, #ee74e1 100%);
+}
+
+.def {
+  background: #00c9ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #92fe9d,
+    #00c9ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #92fe9d,
+    #00c9ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.youtube-list {
+  display: inline-flex;
+}
+
+/* State */
+
+
