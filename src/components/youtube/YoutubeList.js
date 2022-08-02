@@ -20,7 +20,8 @@ const YoutubeList = (props) => {
             title={item.title}
             contentImage={item.avatar || item.image}
             author={item.author}
-          ></YoutubeItem>
+          >
+          </YoutubeItem>
         );
       })}
       <div className="children">{props.children}</div>

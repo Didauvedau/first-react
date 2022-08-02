@@ -91,5 +91,28 @@
 }
 
 /* State */
+/* Toggle */
 
+.form-check-input {
+  width: 8% !important;
+  height: 20px !important;
+  transition: all 0.4s linear !important;
+}
 
+.form-check-input:checked {
+  background-color: #74ebd5 !important;
+  /* color: darkgrey; */
+}
+
+/* Game */
+.cell {
+  color: #ee74e1;
+}
+
+.message {
+  color: #ff4f20;
+}
+
+.cell-edit {
+  box-shadow: 2px 2px 3px 3px rgb(86, 148, 176);
+}
