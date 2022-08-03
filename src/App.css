@@ -116,3 +116,8 @@
 .cell-edit {
   box-shadow: 2px 2px 3px 3px rgb(86, 148, 176);
 }
+
+/* clock */
+.clock{
+  width: 400px !important;
+}

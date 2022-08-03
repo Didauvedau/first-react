@@ -4,6 +4,8 @@ import YoutubeList from "./components/youtube/YoutubeList";
 import Toggle from "./components/stateToggle/Toggle";
 import Game from "./components/stateTictactoe/Game";
 import Login from "./components/form/Login";
+import Example from "./components/effectHook/Example";
+import Clock from "./components/clock/Clock";
 
 function App() {
   // const number = [2, 4, 5, 6, 7, 8, 9];
@@ -25,9 +27,12 @@ function App() {
       </YoutubeList>
       <Toggle></Toggle>
       <Game></Game>
-      <Login>
-        Email & ID
-      </Login>
+      <Login>Email & ID</Login>
+
+      <Example></Example>
+
+      <Clock clName="border border-danger "></Clock>
+      <Clock clName="border border-success "></Clock>
     </div>
   );
 }
