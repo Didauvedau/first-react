@@ -6,6 +6,7 @@ import Game from "./components/stateTictactoe/Game";
 import Login from "./components/form/Login";
 import Example from "./components/effectHook/Example";
 import Clock from "./components/clock/Clock";
+import ChangeTitle from "./components/effectHook/ChangeTitle";
 
 function App() {
   // const number = [2, 4, 5, 6, 7, 8, 9];
@@ -33,6 +34,8 @@ function App() {
 
       <Clock clName="border border-danger "></Clock>
       <Clock clName="border border-success "></Clock>
+
+      <ChangeTitle></ChangeTitle>
     </div>
   );
 }

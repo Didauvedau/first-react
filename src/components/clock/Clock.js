@@ -17,6 +17,7 @@ const Clock = (props) => {
 
     let ampmToday = getHours >= 12 ? "PM" : "AM";
 
+
     setTime(today);
 
     setAmPm(ampmToday);
@@ -27,7 +28,9 @@ const Clock = (props) => {
   }, 1000);
 
   return (
-    <div className={`clock container d-flex justify-content-center align-items-center ms-3 mt-3 mb-5 ${props.clName}`}>
+    <div
+      className={`clock container d-flex justify-content-center align-items-center mb-5 ${props.clName}`}
+    >
       <h4>
         {ampm} : {time}
       </h4>

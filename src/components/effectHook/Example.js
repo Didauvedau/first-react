@@ -5,7 +5,7 @@ const Example = () => {
 
   // Cập nhập document title sử dụng browser API
   useEffect(() => {
-    document.title = `Clicked ${count} times`;
+    console.log(`Clicked ${count} times`);
   }, [count]);
 
   return (
